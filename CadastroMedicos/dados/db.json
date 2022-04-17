@@ -1,151 +1,63 @@
 {
   "especialidades": [
     {
+      "id": 8,
+      "nome": "Angiologista"
+    },
+
+    {
+      "id": 1,
+      "nome": "Pediatra"
+    },
+    {
+      "id": 2,
+      "nome": "Otorrinolaringologista"
+    },
+    {
       "id": 3,
-      "nome": "oftalmologista"
+      "nome": "Oftalmologista"
     },
     {
       "id": 4,
-      "nome": "dermatologista"
+      "nome": "Ginecologista"
     },
     {
       "id": 5,
-      "nome": "psiquiatra"
+      "nome": "Dermatologista"
+    },
+    {
+      "id": 6,
+      "nome": "Psiquiatra"
+    },
+    {
+      "id": 7,
+      "nome": "Cardiologista"
     }
   ],
   "medicos": [
     {
-      "especialidade": "ortopedista",
-      "nome": "Alírio Souza",
-      "crm": "7487",
-      "telefone": "98547825",
+      "especialidade": "3",
+      "nome": "Ana",
+      "crm": "7896",
+      "telefone": "33344",
       "dias": "quarta",
       "id": 2
     },
     {
-      "especialidade": "neurologista",
-      "nome": "Leila Andrade",
-      "crm": "5984",
-      "telefone": "99547236",
-      "dias": "segunda",
-      "id": 4
-    },
-    {
-      "id": 5,
-      "espcecialidade": "psiquiatra",
-      "nome": "Edina",
-      "crm": "65742541",
-      "telefone": "984454237",
-      "dias": "sexta"
-    },
-    {
-      "id": 6,
-      "espcecialidade": "dermatologista",
-      "nome": "Luzia Santiago",
-      "crm": "6987",
-      "telefone": "94477852",
-      "dias": "quinta"
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10,
-      "espcecialidade": "cardiologista",
-      "nome": "ana",
-      "crm": "5478",
-      "telefone": "58478569",
-      "dias": "segunda"
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
-    },
-    {
-      "id": 27
-    },
-    {
-      "id": 28
-    },
-    {
-      "id": 29
-    },
-    {
-      "id": 30
-    },
-    {
-      "id": 31,
-      "espcecialidade": "pediatra",
-      "nome": "Rita",
-      "crm": "4322",
-      "telefone": "9587362",
-      "dias": "quar"
-    },
-    {
-      "especialidade": "3",
+      "especialidade": "5",
       "nome": "Rodolfo",
       "crm": "7896",
       "telefone": "79999983432",
-      "dias": "seg",
-      "id": 32
+      "dias": "quarta",
+      "id": 4
     },
     {
       "especialidade": "5",
-      "nome": "Renato",
-      "crm": "7896",
-      "telefone": "79999983432",
-      "dias": "seg",
-      "id": 33
+      "nome": "Marcelo",
+      "crm": "7854",
+      "telefone": "32365847",
+      "dias": "quinta",
+      "id": 5
     }
   ]
 }
