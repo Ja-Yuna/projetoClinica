@@ -1,0 +1,52 @@
+var urlBase = " http://localhost:3000/medicos"
+
+class Contato {
+    constructor(id, espcecialidade,nome,crm,telefone,dias) {
+        this.id = id
+        this.espcecialidade = espcecialidade
+        this.nome = nome
+        this.crm = crm
+        this.telefone = telefone
+        this.dias = dias
+    }
+
+    salvar() {
+        fetch(urlBase, {
+                method: 'POST',
+                body: JSON.stringify(this),
+                headers: {
+                    'Content-type': 'Application/json'
+                }
+            })
+            .catch(erro => console.log(erro))
+    }
+    consultarTodos(display) {
+        fetch(urlBase)
+            .then(x => x.text())
+            .then(data => display(data))
+    }
+
+    consultarPeloId(idcontato, display) {
+        fetch(`${urlBase}/${idcontato}`)
+            .then(x => x.text())
+            .then(data => display(data))
+    }
+
+    update() {
+        fetch(`${urlBase}/${this.id}`, {
+            method: 'PUT',
+            body: JSON.stringify(this),
+            headers: {
+                'Content-type': 'Application/json'
+            }
+        })
+    }
+
+    excluir(idcontato) {
+        fetch(`${urlBase}/${idcontato}`, {
+            method: 'DELETE'
+        })
+    }
+
+    
+}

@@ -1,0 +1,109 @@
+
+div {
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #12ABDB;
+    color: rgb(225, 229, 233);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.salvar {
+    background-color:#566a84;
+    color: white;
+}
+
+.salvar:hover {
+    background-color: #073b57;
+    color: white;
+}
+  input[type=text], select, textarea {
+    color: rgb(31, 98, 175);
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #4e9db1f6;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    color: white;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  
+  input[type=salvar]:hover {
+    background-color: #073b57;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #0070AD;
+    padding: 15%;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+
+    table {
+        width: 400px;
+        margin: auto;
+        border-collapse: collapse;
+    }
+    
+    thead {
+        background-color: forestgreen;
+        color: white;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: silver;
+    }
+    
+    tbody tr:hover {
+        background-color: aqua;
+        color: red;
+    }
+    
+    td {
+        padding: 5px;
+    }
+    
+    th {
+        padding: 8px;
+        text-align: left;
+    }
+  
+}
+ 
