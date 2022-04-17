@@ -49,20 +49,43 @@
         background-clip: padding-box;
         color: white;
         font-family: Garamond, serif;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         text-align:center
 
     }
+    ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+ 
+}
     
 </style>
 
+
 <body onload="load()">
+    
   
         <aside><img src="images/caplogo.png" alt="capgmenini logo" /></aside>
 
         <article>
             <h2>Consultar Cadastro</h2>
         </article>
+        <div><ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            
+          </ul></div>
 
     
         <table>
@@ -104,10 +127,11 @@
                             <td> <a href='excluir.html?id=${minhaLista[indice].id}'>excluir</a></td>
                         </tr>
                       `
-                    //<td><button onclick=apagar(${minhaLista[indice].id})>Apagar</button>
+                    
                 }
                 document.getElementsByTagName("tbody")[0].innerHTML = trs;
             }
+
 
             function apagar(idcontato) {
                 let ob = new Contato();
